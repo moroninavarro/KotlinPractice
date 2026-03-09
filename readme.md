@@ -1,7 +1,6 @@
 # Overview
 
 # Basis Calculator - Kotlin Project
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
 
 {Provide a description of the software that you wrote to demonstrate the Kotlin language.}
 

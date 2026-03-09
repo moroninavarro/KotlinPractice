@@ -8,7 +8,7 @@ fun main() {
     println("Instructions:")
     println("Select the first number, then you will chose an operation, and then the second number.")
     println("")
-    println("Enter the first number:")
+    println("Enter the first number: ")
     val number1 = readLine()!!.toInt()
 
     clearScreen()
