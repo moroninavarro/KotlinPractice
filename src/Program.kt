@@ -65,7 +65,7 @@ class Sum(val number1:Int, val number2:Int){
 class Subtraction(val number1:Int, val number2:Int){
     fun showSubtraction() {
         val result = number1 - number2
-        println(result)
+        println("Result = $result")
     }
 }
 
@@ -73,13 +73,13 @@ class Subtraction(val number1:Int, val number2:Int){
 class Multiply(val number1:Int, val number2:Int){
     fun showMultiply() {
         val result = number1 * number2
-        println(result)
+        println("Result = $result")
     }
 }
 
 class Divide(val number1:Int, val number2:Int){
     fun showDivide() {
         val result = number1 / number2
-        println(result)
+        println("Result = $result")
     }
 }
