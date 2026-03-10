@@ -8,14 +8,36 @@ fun main() {
     println("Instructions:")
     println("Select the first number, then you will chose an operation, and then the second number.")
     println("")
-    println("Enter the first number: ")
+
+
+    println("Enter the First number: ")
     val number1 = readLine()!!.toInt()
 
     clearScreen()
     menu()
+    val operation = readLine()!!.toInt()
 
+
+    clearScreen()
+    println("Enter the Second number: ")
+    val number2 = readLine()!!.toInt()
+
+
+    when (operation) {
+        1 -> Sum(number1, number2).showSum()
+        2 -> Subtraction(number1, number2).showSubtraction()
+        3 -> Multiply(number1, number2).showMultiply()
+        4 -> Divide(number1, number2).showDivide()
+        else -> println("Invalid operation")
+    }
 
 }
+
+
+
+
+
+//My classes
 fun clearScreen() {
     repeat(30){
         println()
@@ -23,42 +45,41 @@ fun clearScreen() {
 }
 
 fun menu(){
-    val sum = "1. Sum"
-    val rest = "2. Rest"
-    val multiply = "3. Multiply"
-    val divide = "4. Divide"
-
     println("Calculator")
-    println(sum)
-    println(rest)
-    println(multiply)
-    println(divide)
+    println("1. Sum")
+    println("2. Subtraction")
+    println("3. Multiply")
+    println("4. Divide")
     println("Choose an operation:")
-    val operation = readLine()!!.toInt()
+
 
 }
 
 class Sum(val number1:Int, val number2:Int){
     fun showSum() {
-        println(number1 + number2)
+        val result = number1 + number2
+        println("Result = $result")
     }
 }
 
-class Rest(val number1:Int, val number2:Int){
-    fun showRest() {
-        println(number1 - number2)
+class Subtraction(val number1:Int, val number2:Int){
+    fun showSubtraction() {
+        val result = number1 - number2
+        println(result)
     }
 }
 
 
 class Multiply(val number1:Int, val number2:Int){
     fun showMultiply() {
-        println(number1 * number2)
+        val result = number1 * number2
+        println(result)
     }
 }
 
 class Divide(val number1:Int, val number2:Int){
     fun showDivide() {
-        println(number1 / number2)
+        val result = number1 / number2
+        println(result)
     }
 }
