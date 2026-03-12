@@ -20,6 +20,9 @@ fun main() {
 //function contains all the logic of the calculator functionality. Asking the user for numbers and
 //the operation he wants to do. At the end there is an option to repeat the process and to do another operation
 fun calculator(){
+//My do-while loop contain all the steps of the calculator
+//Printing the input to the number1, then displaying the menu class and at the end
+//Asking for the number2. After that there is an option to restart and perform another operation
     do{
         print("Enter the First number: ")
         val number1 = readLine()!!.toInt()
@@ -78,7 +81,7 @@ class Sum(val number1:Int, val number2:Int){
 
 //My Subtraction class has 2 arguments for the numbers that the user chooses, then the function
 //contains all the logic to subtract the number2 from number1 and print the result
-class Subtraction(val number1:Int, val number2:Int){
+class Subtraction(val number1:Int, val number2:Int) {
     fun showSubtraction() {
         val result = number1 - number2
         println("Result $number1 - $number2 = $result")
