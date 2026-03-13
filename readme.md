@@ -22,6 +22,7 @@ IntelliJ IDEA
 
 {Make a list of websites that you found helpful in this project}
 
+* [W3 Schools](https://www.w3schools.com/kotlin/kotlin_while_loop.php)
 - [Web Site Name](http://url.link.goes.here)
 - [Web Site Name](http://url.link.goes.here)
 

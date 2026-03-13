@@ -9,12 +9,16 @@ fun main() {
     println("Select the first number, then you will chose an operation, and then the second number.")
     println("")
 
-//This variable store our class calculator with all the logic.
-    val app = calculator()
-//Now we print the variable displaying all our logic program.
-    println(app)
+//This call our function calculator, calling all the project.
+calculator()
 }
 
+//My data class Operation contain all the data of the operation
+data class Operation(
+    val number1: Int,
+    val number2: Int,
+    val operator: Int
+)
 
 //My calculator function basically contains all the callings of my classes, this
 //function contains all the logic of the calculator functionality. Asking the user for numbers and
@@ -23,6 +27,7 @@ fun calculator(){
 //My do-while loop contain all the steps of the calculator
 //Printing the input to the number1, then displaying the menu class and at the end
 //Asking for the number2. After that there is an option to restart and perform another operation
+   var again : String
     do{
         print("Enter the First number: ")
         val number1 = readLine()!!.toInt()
@@ -36,22 +41,21 @@ fun calculator(){
         print("Enter the Second number: ")
         val number2 = readLine()!!.toInt()
 
+    val operationInfo = Operation(number1, number2, operation)
 
-        when (operation) {
-            1 -> Sum(number1, number2).showSum()
-            2 -> Subtraction(number1, number2).showSubtraction()
-            3 -> Multiply(number1, number2).showMultiply()
-            4 -> Divide(number1, number2).showDivide()
+        when (operationInfo.operator) {
+            1 -> Sum(operationInfo.number1, operationInfo.number2).showSum()
+            2 -> Subtraction(operationInfo.number1, operationInfo.number2).showSubtraction()
+            3 -> Multiply(operationInfo.number1, operationInfo.number2).showMultiply()
+            4 -> Divide(operationInfo.number1, operationInfo.number2).showDivide()
             else -> println("Invalid operation")
         }
 
         print("Do another operation? (y/n) ")
-        val again = readln()
-    } while (again == "y" || again == "yes" || again == "Yes")
+       again = readln()
+    } while (again.lowercase() == "y" || again.lowercase() == "yes")
 
 }
-
-
 
 //My clearScreen function help us to clean the screen printing 50 spaces after the
 //user select the numbers and select an operation
