@@ -2,27 +2,32 @@
 
 # Basis Calculator - Kotlin Project
 
-{Basically, the functionality of this calculator consist of inserting a first number, then you chose an operation,
-and after that a second number. Finally, the result is shown according to the operation you performed}
+As a software engineer I want to keep improving my skills and knowledge about programming languages. 
+So I created a basic calculator using Kotlin. Basically, the functionality of this calculator 
+consist of inserting a first number, then you chose an operation, and after that a second number. 
+Finally, the result is shown according to the operation you performed.
 
-{I focused on learning more about the logic of Kotlin and developed new skills.}
+The purpose of this software it was to learn more about Kotlin.
+Including data classes, variables, conditionals, loops, functions and expressions.
+Also, I want to develop new skills.
 
 
 # Development Environment
 
-{Tools that I used to develop the software}
+Tools that I used to develop the software:
 - IntelliJ IDEA
 - Git
 
-{Programming language that I used and any libraries.}
+Programming language that I used and any libraries.
 - Kotlin
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+A list of websites that I found helpful in this project:
 
-* [W3 Schools](https://www.w3schools.com/kotlin/kotlin_while_loop.php)
-
+* [W3 Schools] (https://www.w3schools.com/kotlin/kotlin_while_loop.php)
+* [Kotlin Official Documentation] (https://kotlinlang.org/docs/data-classes.html#standard-data-classes)
+  
 
 # Future Work
 
