@@ -2,34 +2,31 @@
 
 # Basis Calculator - Kotlin Project
 
-{Provide a description of the software that you wrote to demonstrate the Kotlin language.}
+{Basically, the functionality of this calculator consist of inserting a first number, then you chose an operation,
+and after that a second number. Finally, the result is shown according to the operation you performed}
 
-{Describe your purpose for writing this software.}
+{I focused on learning more about the logic of Kotlin and developed new skills.}
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-IntelliJ IDEA
+{Tools that I used to develop the software}
+- IntelliJ IDEA
+- Git
 
-
-{Describe the programming language that you used and any libraries.}
+{Programming language that I used and any libraries.}
+- Kotlin
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
 * [W3 Schools](https://www.w3schools.com/kotlin/kotlin_while_loop.php)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I will add a history of operation in the future
+- I will improve the user interface
