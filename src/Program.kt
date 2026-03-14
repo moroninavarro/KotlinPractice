@@ -1,5 +1,5 @@
 fun main() {
-    println("Welcome to my Basis Calculator!")
+    println("Welcome to my Basic Calculator!")
 // Welcome!
 // Basically, the functionality of this calculator consist of inserting the first number
 // then you chose an operation
